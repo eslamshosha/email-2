@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
     <title>email</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap");
@@ -23,6 +23,7 @@
         -ms-text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;
         min-height: 100vh;
+        mso-line-height-rule:exactly;
       }
       table {
         border-collapse: separate;
@@ -38,11 +39,9 @@
         display: block;
         margin: 0 auto !important;
         /* makes it centered */
-        /* max-width: 600px; */
-        width: 600px;
+        max-width: 600px;
+        width: 100%;
         margin: 0px auto;
-        margin-left: auto;
-        margin-right: auto;
       }
       .content {
         box-sizing: border-box;
@@ -349,7 +348,6 @@
       border="0"
       cellpadding="0"
       cellspacing="0"
-      class="body"
       align="center"
       width="100%"
     >
@@ -367,7 +365,7 @@
                 style="
                   background-color: #ffffff;
                   margin: 0 auto;
-                  width: 600px;
+                  max-width: 600px;
                   width: inherit;
                 "
               >
@@ -468,12 +466,13 @@
                             </td>
                           </tr>
                         </table>
-                        <div class="footer">
+                        <div class="footer" style="text-align: center;">
                           <table
                             role="presentation"
                             border="0"
                             cellpadding="0"
                             cellspacing="0"
+                            width="100%"
                           >
                             <tr>
                               <td>
