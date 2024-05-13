@@ -40,12 +40,12 @@
         /* makes it centered */
         max-width: 600px;
         width: 600px;
-        margin: 0 auto;
+        margin: 0px auto;
       }
       .content {
         box-sizing: border-box;
         display: block;
-        margin: 0 auto;
+        margin: 0px auto;
         max-width: 640px;
       }
       h1,
@@ -145,6 +145,7 @@
       .preheader .discount {
         width: 271px;
         height: 56px;
+        vertical-align: middle;
         line-height: 56px;
         border-radius: 4px;
         font-weight: 600;
@@ -165,6 +166,7 @@
       .main .discount {
         width: 271px;
         height: 56px;
+        vertical-align: middle;
         line-height: 56px;
         border-radius: 4px;
         font-weight: 600;
@@ -222,7 +224,7 @@
         text-align: center;
         margin-bottom: 15px;
       }
-      .steps-text{
+      .steps-text {
         width: 100%;
         text-align: center;
       }
@@ -296,17 +298,17 @@
         height: 500px;
         margin-bottom: 40px;
       }
-      /* @media (prefers-color-scheme: dark) {
+      @media (prefers-color-scheme: dark) {
         body {
-          background-color: #282828;
+          background-color: #fff;
         }
         .container {
-          background-color: #2c2b2a;
+          background-color: #fff;
         }
         .wrapper {
-          background-color: #2c2b2a;
+          background-color: #fff;
         }
-        .footer {
+        /* .footer {
           background-color: #1c1c1c;
         }
         p,
@@ -335,8 +337,8 @@
         }
         .dark-logo {
           color: #fff;
-        }
-      } */
+        } */
+      }
     </style>
   </head>
   <body>
@@ -346,141 +348,177 @@
       cellpadding="0"
       cellspacing="0"
       class="body"
+      align="center"
+      width="100%"
     >
-      <tr>
-        <!-- <td>&nbsp;</td> -->
-        <td class="container">
-          <div class="content">
-            <div class="preheader">
-              <a href="https://raiyansoft.com/" class="logo"
-                ><span>&copy;</span>raiyansoft
-              </a>
-              <h4>عرض خاص علي هذا الرابط</h4>
-              <a href="https://raiyansoft.com/start/" class="discount"
-                >احصل علي الخصم الآن</a
-              >
-            </div>
-            <table role="presentation" class="main">
-              <tr>
-                <td class="wrapper">
-                  <table
-                    role="presentation"
-                    border="0"
-                    cellpadding="0"
-                    cellspacing="0"
-                  >
-                    <tr>
-                      <td>
-                        <h2>لفترة محدودة</h2>
-                        <h3>40<span>%</span></h3>
-                        <p>خصم علي</p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <img
-                          src="https://www6.0zz0.com/2024/05/12/14/263457942.png"
-                          alt="img"
-                          class="app-img"
-                        />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <span class="item">برمجة التطبيقات</span>
-                        <span class="item">تصميم المواقع</span>
-                        <span class="item">المتاجر الالكترونية</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <a
-                          href="https://www.instagram.com/p/CZn6t_hI-8m/"
-                          class="gif-img"
-                        >
-                          <img src="poster.gif" alt="gif" />
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <h5>مراحل العمل : </h5>
-                        <span class="steps">
-                          <span class="number">1</span>
-                          <span class="steps-text">التحليل الشامل للمشروع</span>
-                        </span>
-                        <span class="steps">
-                          <span class="number">2</span>
-                          <span class="steps-text">المخطط أو الوايرفريم</span>
-                        </span>
-                        <span class="steps">
-                          <span class="number">3</span>
-                          <span class="steps-text">التصميم</span>
-                        </span>
-                        <span class="steps">
-                          <span class="number">4</span>
-                          <span class="steps-text">البرمجة</span>
-                        </span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <a href="https://raiyansoft.com/start/" class="discount"
-                          >احصل علي الخصم الآن</a
-                        >
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-            <div class="footer">
+      <tbody>
+        <tr>
+          <td align="center" style="padding-top: 24px">
+            <center style="width: 100%">
               <table
                 role="presentation"
                 border="0"
                 cellpadding="0"
                 cellspacing="0"
+                width="600"
+                style="
+                  background-color: #ffffff;
+                  margin: 0 auto;
+                  max-width: 600px;
+                  width: inherit;
+                "
               >
-                <tr>
-                  <td>
-                    <div class="footer-ancor">
-                      <a href="#">linkedin</a>
-                      <a href="#">instagram</a>
-                      <a href="#">twitter</a>
-                      <a href="#">tiktok</a>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div class="footer-ancor">
-                      <a href="#">Contact us</a>
-                      <a href="#">Location</a>
-                      <a href="#">News</a>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="content-block powered-by">
-                    Copyright © 2024 شركة ريان سوفت | Raiyansoft
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="https://raiyansoft.com/" class="logo-img"
-                      ><img
-                        src="https://www12.0zz0.com/2024/05/12/14/307715202.png"
-                        alt="logo"
-                      />
-                    </a>
-                  </td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <td class="container">
+                      <div class="content">
+                        <div class="preheader">
+                          <a href="https://raiyansoft.com/" class="logo"
+                            ><span>&copy;</span>raiyansoft
+                          </a>
+                          <h4>عرض خاص علي هذا الرابط</h4>
+                          <a
+                            href="https://raiyansoft.com/start/"
+                            class="discount"
+                            >احصل علي الخصم الآن</a
+                          >
+                        </div>
+                        <table role="presentation" class="main">
+                          <tr>
+                            <td class="wrapper">
+                              <table
+                                role="presentation"
+                                border="0"
+                                cellpadding="0"
+                                cellspacing="0"
+                              >
+                                <tr>
+                                  <td>
+                                    <h2>لفترة محدودة</h2>
+                                    <h3>40<span>%</span></h3>
+                                    <p>خصم علي</p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <img
+                                      src="https://www6.0zz0.com/2024/05/12/14/263457942.png"
+                                      alt="img"
+                                      class="app-img"
+                                    />
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <span class="item">برمجة التطبيقات</span>
+                                    <span class="item">تصميم المواقع</span>
+                                    <span class="item"
+                                      >المتاجر الالكترونية</span
+                                    >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <a
+                                      href="https://www.instagram.com/p/CZn6t_hI-8m/"
+                                      class="gif-img"
+                                    >
+                                      <img src="poster.gif" alt="gif" />
+                                    </a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <h5>مراحل العمل :</h5>
+                                    <span class="steps">
+                                      <span class="number">1</span>
+                                      <span class="steps-text"
+                                        >التحليل الشامل للمشروع</span
+                                      >
+                                    </span>
+                                    <span class="steps">
+                                      <span class="number">2</span>
+                                      <span class="steps-text"
+                                        >المخطط أو الوايرفريم</span
+                                      >
+                                    </span>
+                                    <span class="steps">
+                                      <span class="number">3</span>
+                                      <span class="steps-text">التصميم</span>
+                                    </span>
+                                    <span class="steps">
+                                      <span class="number">4</span>
+                                      <span class="steps-text">البرمجة</span>
+                                    </span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <a
+                                      href="https://raiyansoft.com/start/"
+                                      class="discount"
+                                      >احصل علي الخصم الآن</a
+                                    >
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <div class="footer">
+                          <table
+                            role="presentation"
+                            border="0"
+                            cellpadding="0"
+                            cellspacing="0"
+                          >
+                            <tr>
+                              <td>
+                                <div class="footer-ancor">
+                                  <a href="#">linkedin</a>
+                                  <a href="#">instagram</a>
+                                  <a href="#">twitter</a>
+                                  <a href="#">tiktok</a>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <div class="footer-ancor">
+                                  <a href="#">Contact us</a>
+                                  <a href="#">Location</a>
+                                  <a href="#">News</a>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="content-block powered-by">
+                                Copyright © 2024 شركة ريان سوفت | Raiyansoft
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <a
+                                  href="https://raiyansoft.com/"
+                                  class="logo-img"
+                                  ><img
+                                    src="https://www12.0zz0.com/2024/05/12/14/307715202.png"
+                                    alt="logo"
+                                  />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
               </table>
-            </div>
-          </div>
-        </td>
-        <!-- <td>&nbsp;</td> -->
-      </tr>
+            </center>
+          </td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
